@@ -8,6 +8,6 @@
 
 ### Что необходимо для работы программы:
 1. Установить интерпретатор python
-2. Установить библиотеку NumPy
-3. Установить библиотеку Matplotlib 
-4. Установить библиотеку Scipy
+2. Установить библиотеку NumPy      `pip install numpy`
+3. Установить библиотеку Matplotlib `pip install Matplotlib`
+4. Установить библиотеку Scipy      `pip install Scipy`
