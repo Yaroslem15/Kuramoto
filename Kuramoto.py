@@ -14,7 +14,7 @@ d = 0
 # Задаем функцию, которая описывает дифференциальное уравнение
 def kur2(phi, t, K, w1, w2, w3, T):
     phi1, phi2, phi3 = phi
-    e = (np.exp(-t*1000/T))
+    e = (np.exp(-t*100/T))
     d = K*e
     dphi1 = (w1 + (K/3) * (np.sin(phi2 - phi1) + np.sin(phi3 - phi1)) * e)
     dphi2 = (w2 + (K/3) * (np.sin(phi1 - phi2) + np.sin(phi3 - phi2)) * e)
